@@ -1,0 +1,33 @@
+{
+  "name": "crawl-deps",
+  "main": "./crawl-deps.js",
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "bluebird": "^2.9.34",
+    "acorn": "^2.1.0",
+    "acorn-umd": "^0.4.0"
+  },
+  "description": "Allows you to recursively crawl your dependencies for a given file. Supports ES6 `imports` and CommonJS `require`.",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/node-crawl-deps.git"
+  },
+  "keywords": [
+    "ast",
+    "require",
+    "import",
+    "deps",
+    "dependency",
+    "dependencies"
+  ],
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/node-crawl-deps/issues"
+  },
+  "homepage": "https://github.com/reggi/node-crawl-deps#readme"
+}
